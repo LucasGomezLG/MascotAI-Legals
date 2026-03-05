@@ -3,98 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eliminar Cuenta - MascotAI</title>
+    <title>Eliminar Cuenta – MascotAI</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9fafb;
-        }
-        .container {
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #f97316; /* Naranja MascotAI */
-            margin-bottom: 20px;
-        }
-        h2 {
-            color: #1f2937;
-            margin-top: 30px;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        .button {
-            display: inline-block;
-            background-color: #f97316;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-        .button:hover {
-            background-color: #ea580c;
-        }
-        .email-box {
-            background-color: #f3f4f6;
-            padding: 15px;
-            border-radius: 8px;
-            border: 1px solid #e5e7eb;
-            font-family: monospace;
-            margin: 10px 0;
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #334155; max-width: 600px; margin: 0 auto; padding: 40px 20px; text-align: center; }
+        .icon { font-size: 64px; margin-bottom: 20px; }
+        h1 { color: #0f172a; font-weight: 900; }
+        p { color: #64748b; margin-bottom: 2rem; }
+        .card { background: #f8fafc; border: 1px solid #e2e8f0; padding: 2rem; border-radius: 1.5rem; text-align: left; }
+        .step { margin-bottom: 1.5rem; }
+        .step-number { background: #f97316; color: white; width: 24px; height: 24px; display: inline-flex; items-center; justify-content: center; border-radius: 50%; font-size: 12px; font-weight: bold; margin-right: 10px; }
+        .warning { color: #991b1b; background: #fef2f2; padding: 1rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 600; margin-top: 2rem; }
+        .contact-btn { display: inline-block; background: #0f172a; color: white; text-decoration: none; padding: 12px 24px; border-radius: 0.75rem; font-weight: bold; margin-top: 1rem; }
     </style>
 </head>
 <body>
+    <div class="icon">🐾</div>
+    <h1>Eliminar mi cuenta MascotAI</h1>
+    <p>Lamentamos que te vayas. Para cumplir con las normativas de privacidad y las políticas de Apple/Google, puedes eliminar tu cuenta siguiendo estos pasos:</p>
 
-<div class="container">
-    <h1>Solicitud de Eliminación de Cuenta</h1>
-    <p>En <strong>MascotAI</strong>, valoramos tu privacidad y te damos el control total sobre tus datos. Si deseas eliminar tu cuenta y todos los datos asociados de forma permanente, puedes hacerlo siguiendo cualquiera de los métodos a continuación.</p>
-
-    <h2>Opción 1: Desde la Aplicación (Recomendado)</h2>
-    <p>Es la forma más rápida y automática:</p>
-    <ol>
-        <li>Abre la aplicación <strong>MascotAI</strong>.</li>
-        <li>Ve a tu <strong>Perfil</strong> (icono de usuario).</li>
-        <li>Toca en el icono de <strong>Configuración</strong> (engranaje).</li>
-        <li>Selecciona la opción <strong>"Eliminar mi cuenta"</strong>.</li>
-        <li>Confirma la acción.</li>
-    </ol>
-    <p><em>Nota: Esta acción es irreversible y eliminará tu perfil, mascotas registradas, historial de escaneos y suscripciones activas.</em></p>
-
-    <h2>Opción 2: Solicitud por Correo Electrónico</h2>
-    <p>Si no tienes acceso a la aplicación, puedes solicitar la eliminación manual enviándonos un correo electrónico:</p>
-
-    <div class="email-box">
-        <strong>Para:</strong> mascotai.service@gmail.com<br>
-        <strong>Asunto:</strong> Eliminar mi cuenta<br>
-        <strong>Cuerpo del mensaje:</strong> Por favor, eliminen mi cuenta asociada al correo [Tu Correo Electrónico].
+    <div class="card">
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Desde la Aplicación:</strong>
+            <p style="margin-top: 5px; font-size: 0.9rem;">Abre MascotAI > Ve a tu Perfil > Pulsa el icono de Configuración (engranaje) > Selecciona "Eliminar cuenta".</p>
+        </div>
+        <div class="step" style="margin-bottom: 0;">
+            <span class="step-number">2</span>
+            <strong>Solicitud vía Web/Email:</strong>
+            <p style="margin-top: 5px; font-size: 0.9rem;">Si ya no tienes la aplicación instalada, envía un correo desde la dirección asociada a tu cuenta solicitando la baja definitiva.</p>
+            <a href="mailto:mascota.service@gmail.com?subject=Solicitud de Eliminacion de Cuenta" class="contact-btn">Solicitar Eliminación por Email</a>
+        </div>
     </div>
 
-    <p>Procesaremos tu solicitud en un plazo máximo de 7 días hábiles y te confirmaremos la eliminación por correo.</p>
+    <div class="warning">
+        ⚠️ ATENCIÓN: Esta acción es irreversible. Se borrarán tus datos personales, los perfiles de tus mascotas y todo el historial de análisis de IA.
+    </div>
 
-    <h2>¿Qué datos se eliminan?</h2>
-    <ul>
-        <li><strong>Información Personal:</strong> Nombre, correo electrónico, foto de perfil.</li>
-        <li><strong>Datos de Mascotas:</strong> Perfiles de mascotas, fotos, registros médicos.</li>
-        <li><strong>Actividad:</strong> Historial de escaneos, publicaciones en la comunidad.</li>
-    </ul>
-
-    <h2>Retención de Datos</h2>
-    <p>Algunos datos pueden conservarse durante un período limitado por obligaciones legales o para prevenir fraudes, pero no estarán vinculados a tu identidad personal.</p>
-
-    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
-    <p style="font-size: 0.9em; color: #666;">&copy; 2024 MascotAI. Todos los derechos reservados.</p>
-</div>
-
+    <footer style="margin-top: 3rem; font-size: 0.8rem; color: #94a3b8;">
+        © 2026 MascotAI – Cumplimiento de Privacidad GDPR / Ley 25.326
+    </footer>
 </body>
 </html>
